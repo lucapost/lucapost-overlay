@@ -6,10 +6,9 @@ EAPI=2
 
 inherit eutils distutils
 
-#S="${WORKDIR}/${PN}"
 S="${WORKDIR}/${P}"
 DESCRIPTION="Powerful IMAP/Maildir synchronization and reader support"
-SRC_URI="mirror://debian/pool/main/o/offlineimap/${P/-/_}.tar.gz"
+SRC_URI="mirror://debian/pool/main/o/offlineimap/${P/-/_}.orig.tar.gz"
 HOMEPAGE="http://software.complete.org/offlineimap"
 LICENSE="GPL-2"
 IUSE="ssl"

@@ -22,6 +22,10 @@ RDEPEND="dev-lang/python[threads]
 
 S="${WORKDIR}/${PN}"
 
+src_prepare() {
+        epatch "${FILESDIR}"/${P}-darwin10.patch
+}
+
 src_install() {
 	distutils_src_install
 	dodoc offlineimap.conf offlineimap.conf.minimal offlineimap.sgml
