@@ -4,6 +4,9 @@
 
 EAPI=3
 
+inherit distutils
+
+S="${WORKDIR}/${P}"
 DESCRIPTION="This tiny tool reads out and deletes tracklog data from mainnav gps devices under linux."
 HOMEPAGE="http://code.google.com/p/mainnav-reader/"
 SRC_URI="http://${PN}.googlecode.com/files/${P}.tar.gz"
@@ -15,3 +18,7 @@ IUSE=""
 
 DEPEND="dev-python/pyserial"
 RDEPEND="${DEPEND}"
+
+src_install() {
+	distutils_src_install
+}
