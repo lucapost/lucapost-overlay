@@ -1,0 +1,13 @@
+# Readme
+
+This is my  gentoo overlay where I stored my personal ebuild.
+
+## Install
+
+First off all download this repo in your home directory:
+
+   git clone git://github.com/lucapostregna/lucapost-overlay.git ~/
+
+Add this line to /etc/make.conf:
+  
+   PORTDIR_OVERLAY="/home/username/lucapost-overlay"
