@@ -1,11 +1,14 @@
 # Readme
 
-lucapost gentoo overlay
+This is lucapost gentoo overlay, for ebuild not in portage.
 
 ## Install
 
-First off all download this repo in your home directory:
+First off all download this repo in your directory (for example ~/username):
+     
+     cd ~/
      git clone git://github.com/lucapostregna/lucapost-overlay.git
 
-Add this line to /etc/make.conf:
+Add path of this overlay to /etc/make.conf (need root):
+
      PORTDIR_OVERLAY="/path/to/lucapost-overlay"
