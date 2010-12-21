@@ -4,11 +4,11 @@ This is lucapost gentoo overlay, for ebuild out of official portage.
 
 ## Install
 
-First off all download this repo in your directory (for example ~/username):
+First off all download this repo in your directory (for example ~/repo):
      
-     cd ~/
+     cd ~/repo
      git clone git://github.com/lucapostregna/lucapost-overlay.git
 
 Add path of this overlay to /etc/make.conf (need root):
 
-     PORTDIR_OVERLAY="/path/to/lucapost-overlay"
+     PORTDIR_OVERLAY="/home/lucapost/repo/lucapost-overlay"
